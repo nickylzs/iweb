@@ -11,6 +11,7 @@ p {text-align:justify;}
 
 .links {display:inline-block;}
 .nav {position:absolute;top:28px;right:10px;float:right;background-color:#ffffff;z-index:199}
+.nav_triangle{display:hidden}
 .nav_links {display:inline-block;min-width:100px;text-align:center;}
 .nav_links a {color:#545454}
 .nav_links a:hover {text-decoration:none;color:#369699}
@@ -30,7 +31,12 @@ p {text-align:justify;}
 {.header{height:70px;} 
 .nav{position:absolute;top:15px;right:10px;display:inline-block;color:#545454;width:28px;height:28px;padding:5px;border:1px solid #d8d8d8;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
-border-radius: 5px;background-image:url('down.png');background-repeat:no-repeat;background-position:right top;} 
+border-radius: 5px;background-image:url('down.png');background-repeat:no-repeat;background-position:right top;}
+ 
+.nav_triangle {position:relative;padding-bottom:20px;margin:0;color:#adadad;background:#ffffff;}
+.nav_triangle:after{content:"";position:absolute;top:8px;right:4px;border-width:10px 10px 0;border-style:solid;border-color:#565656 transparent;display:block;width:0;}
+.nav_triangle.bottom:after {bottom:0;right:0;top:auto;left:auto;border-width:18px 18px 0;border-color:#313131 transparent;}
+
 .nav_links{display:none;padding-bottom:5px;} 
 .nav:hover{width:155px;height:155px;border:1px solid #d8d8d8;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
