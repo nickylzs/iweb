@@ -9,7 +9,7 @@ p {text-align:justify;}
 
 .logo {position:absolute;top:2px;left:10%;max-width:75px;max-height:75px;}
 .img_logo {max-width:75px;max-height:75px;}
-.nav {position:absolute;top:25px;right:10px;float:right;background-color:#ffffff;z-index:199}
+.nav {position:absolute;top:35px;right:10%;float:right;background-color:#ffffff;z-index:199}
 .nav_triangle{display:hidden}
 .nav_links {display:inline-block;height:29px;min-width:100px;text-align:center;}
 .nav_links a {color:#545454}
@@ -28,9 +28,9 @@ p {text-align:justify;}
 .footer{position:absolute;bottom:0;width:100%;height:300px;}
 .footer-bars {background-image:url('footer.png');width:100%;height:260px;}
 
-@media all and (max-width:650px) 
+@media all and (max-width:670px) 
 {
-.nav{position:absolute;top:15px;right:10px;display:inline-block;color:#545454;width:28px;height:28px;padding:5px;border:1px solid #d8d8d8;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.nav{position:absolute;top:15px;right:10%;display:inline-block;color:#545454;width:28px;height:28px;padding:5px;border:1px solid #d8d8d8;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
 .nav_triangle {position:relative;padding-bottom:20px;margin:0;color:#adadad;background:#ffffff;}
 .nav_triangle:after{content:"";position:absolute;top:8px;right:4px;border-width:10px 10px 0;border-style:solid;border-color:#565656 transparent;display:block;width:0;}
 .nav_links{display:none;padding-bottom:5px;padding-left:5px;border-left:6px solid #ffffff;} 
