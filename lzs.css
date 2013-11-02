@@ -4,10 +4,11 @@ a:hover {text-decoration:underline;}
 h2 {color:#2c2c2c;z-index:0}
 p {text-align:justify;}
 
-.header {position:absolute;top:0;left:0;width:100%;height:60px;background-color:#ffffff;border-bottom:1px solid #989898;z-index:999}
+.header {position:absolute;top:0;left:0;width:100%;height:80px;background-color:#ffffff;border-bottom:1px solid #989898;z-index:999}
 .container {display:block;width:80%;margin:auto;padding-top:20px;}
 
-.links {display:inline-block;}
+.logo {position:absolute;top:2px;left:10%;max-width:75px;max-height:75px;}
+.img_logo {max-width:75px;max-height:75px;}
 .nav {position:absolute;top:25px;right:10px;float:right;background-color:#ffffff;z-index:199}
 .nav_triangle{display:hidden}
 .nav_links {display:inline-block;height:29px;min-width:100px;text-align:center;}
@@ -29,7 +30,6 @@ p {text-align:justify;}
 
 @media all and (max-width:650px) 
 {
-.header{height:70px;} 
 .nav{position:absolute;top:15px;right:10px;display:inline-block;color:#545454;width:28px;height:28px;padding:5px;border:1px solid #d8d8d8;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
 .nav_triangle {position:relative;padding-bottom:20px;margin:0;color:#adadad;background:#ffffff;}
 .nav_triangle:after{content:"";position:absolute;top:8px;right:4px;border-width:10px 10px 0;border-style:solid;border-color:#565656 transparent;display:block;width:0;}
